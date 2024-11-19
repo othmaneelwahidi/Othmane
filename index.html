@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Othmane El Wahidi El Alaoui</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .photo {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover;
+        }
+
+        .o {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        #i {
+            font-size: 40px;
+            margin-left: 5%;
+        }
+
+        /* Flex container for content */
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Video container styles */
+        .video-container {
+            height: 100%;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Content section styles */
+        .content-container {
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .skills {
+            margin-bottom: 16px;
+        }
+
+        .skills div {
+            margin-bottom: 4px;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .photo {
+                width: 120px;
+                height: 120px;
+            }
+
+            #i {
+                font-size: 30px;
+            }
+
+            .o {
+                margin-top: 3%;
+            }
+
+            .content-container {
+                padding: 15px;
+            }
+
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Video Section -->
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="backgroundvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content-container">
+            <header class="w3-container w3-center" style="padding:48px 16px">
+                
+                <h1 class="w3-jumbo"><b>Othmane El Wahidi El Alaoui</b></h1>
+                <p>Web Developer / Full stack</p>
+                <a href="cv Othmane[1] (5) (1).pdf" target="_blank" download>
+                    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                        <i class="fa fa-download"></i> Télécharger le résumé
+                    </button>
+                </a>
+            </header>
+
+            <div class="w3-content w3-justify w3-text-grey">
+                <h2>À propos de moi</h2>
+                <p>
+                    Je suis un développeur web passionné et engagé, basé à Mohammedia, Maroc.
+                    Avec une solide maîtrise des technologies front-end telles que React et TypeScript,
+                    ainsi qu’un intérêt croissant pour le développement backend avec Laravel, je me spécialise dans la création d'applications web dynamiques et conviviales.
+                </p>
+
+                <h1>Projets réalisés</h1>
+                <h3>Application de gestion des vulnérabilités</h3>
+                <address>Rabat, Maroc</address>
+                <p>Dans le cadre de mes projets, j’ai développé une application web innovante pour la gestion des vulnérabilités des projets internes d’une organisation...</p>
+                <ul>
+                    <li>Authentification OAuth pour assurer un accès sécurisé.</li>
+                    <li>Intégration avec le serveur CI pour déclencher et surveiller les pipelines SAST (Static Application Security Testing).</li>
+                    <li>Conversion des rapports générés en formats exploitables et création de tableaux de bord pour un reporting clair et structuré.</li>
+                </ul>
+
+                <h3>Site web pour l’association Amal</h3>
+                <address>Mohammedia, Maroc</address>
+                <p>J’ai conçu et développé un site web pour l’association Amal, une organisation à but non lucratif œuvrant pour le soutien social et éducatif...</p>
+
+                <h3>Site web pour une cordonnerie multiservice</h3>
+                <address>Genève, Suisse</address>
+                <p>Dans le cadre de la digitalisation des petites entreprises, j’ai réalisé un site web pour une cordonnerie multiservice située à Villeurese...</p>
+
+                <h3>Mes Skills</h3>
+
+                <div class="skills">
+                    <p class="w3-wide">HTML</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-blue" style="width:100%">100%</div>
+                    </div>
+
+                    <p class="w3-wide">CSS</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+                    </div>
+
+                    <p class="w3-wide">React.js</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+                    </div>
+
+                    <p class="w3-wide">Laravel</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+                    </div>
+
+                    <p class="w3-wide">Php</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+                    </div>
+
+                    <p class="w3-wide">Python</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:30%">30%</div>
+                    </div>
+
+                    <p class="w3-wide">Git</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">100%</div>
+                    </div>
+
+                    <p class="w3-wide">Mysql</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:40%">40%</div>
+                    </div>
+
+                    <p class="w3-wide">Mongo db</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">100%</div>
+                    </div>
+
+                    <p class="w3-wide">JavaScript</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:40%">40%</div>
+                    </div>
+
+                    <p class="w3-wide">Wordpress</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+                    </div>
+
+                    <p class="w3-wide">Access</p>
+                    <div class="w3-light-grey">
+                        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+                    </div>
+                </div>
+
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <!-- Contact Section -->
+                <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+                    <h2>Contact Me</h2>
+                    <hr class="w3-opacity">
+
+                    <div class="w3-section">
+                        <a href="#map">
+                            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Mohammedia, Maroc</p>
+                        </a>
+                        <a href="mailto:othmane.elwahidi.elalaoui89@gmail.com">
+                            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> othmane.elwahidi.elalaoui89@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
